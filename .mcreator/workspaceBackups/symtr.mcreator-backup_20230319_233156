@@ -1,0 +1,48 @@
+{
+  "mod_elements": [
+    {
+      "name": "OpenWebsite",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_website",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/symtr/gui/OpenWebsiteGui.java",
+          "src/main/java/net/mcreator/symtr/gui/OpenWebsiteGuiWindow.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {},
+    "zh_cn": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "symtr",
+    "modName": "深月铁路更多方块",
+    "version": "1.0.0",
+    "description": "适用于深月铁路服务器的mod",
+    "author": "Sgss",
+    "websiteURL": "https://www.waterspo.top",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.symtr",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

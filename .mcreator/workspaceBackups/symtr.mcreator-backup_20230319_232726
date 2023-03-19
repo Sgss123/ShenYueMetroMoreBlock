@@ -1,0 +1,45 @@
+{
+  "mod_elements": [
+    {
+      "name": "OpenWebsite",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_website",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/symtr/gui/OpenWebsiteGui.java",
+          "src/main/java/net/mcreator/symtr/gui/OpenWebsiteGuiWindow.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "symtr",
+    "modName": "深月铁路更多方块",
+    "version": "1.0.0",
+    "author": "bml15, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.symtr",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

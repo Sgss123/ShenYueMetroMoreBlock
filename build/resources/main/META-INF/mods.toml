@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="symtr"
+version="1.0.0"
+displayName="深月铁路更多方块"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://www.waterspo.top"
+authors="Sgss"
+description='''
+适用于深月铁路服务器的mod
+'''
+
+[[dependencies.symtr]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
