@@ -20,7 +20,11 @@ function switchLanguage(langCode, defaultLangCode) {
       $('#Download').text(langData.Download);
       $('#About').text(langData.About);
       $('#FriendlyLinks').text(langData.FriendlyLinks);
-      $('#ChooseLanguage').text(langData.ChooseLanguage); // ...
+      $('#ChooseLanguage').text(langData.ChooseLanguage);
+      $('#fileName').text(langData.fileName);
+      $('#fileSize').text(langData.fileSize);
+      $('#fileChangeTime').text(langData.fileChangeTime);
+      $('#fileDownload').text(langData.fileDownload); // ...
 
       $.cookie('langCode', langCode);
     }

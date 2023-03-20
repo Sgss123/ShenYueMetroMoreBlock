@@ -2,8 +2,9 @@ var $nav = $('<nav>').html(`
 <link rel="stylesheet" href="/static/css/navbar.css">
   <nav>
         <ul>
+            <li><img src="/static/images/favicon.png" style="width: 49px;height: 49px;"/></li>
             <li><a id="Home" href="/"></a></li>
-            <li><a id="Download" href="/download"></a></li>
+            <li><a id="Download" href="/download.html"></a></li>
             <li><a id="About" href="/about"></a></li>
             <li>
                 <div class="dropdown">
@@ -17,7 +18,7 @@ var $nav = $('<nav>').html(`
             </li>
             <li>
                 <div class="dropdown">
-                    <a href="#" id="ChooseLanguage" class="dropbtn">语言</a>
+                    <a href="#" id="ChooseLanguage" class="dropbtn"></a>
                     <div class="dropdown-content">
                         <a href="?lang=en">English</a>
                         <a href="?lang=zh-Hans">简体中文(中国大陆)</a>

@@ -6,5 +6,11 @@
     "FriendlyLinks": "Friendly Links",
     "ChooseLanguage": "Choose Language",
     "heading": "Hello",
-    "content": "Welcome to our website!"
+    "content": "Welcome to our website!",
+    "downloadPageTitle": "Download Mods",
+    "fileName": "File Name",
+    "fileSize": "File Size",
+    "fileChangeTime": "File Modification Time",
+    "fileDownload": "Download File",
+    "DownloadLink": "Download"
 }

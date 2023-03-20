@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 设置页面视图宽度为设备屏幕宽度，初始缩放比例为1.0 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 设置页面描述信息 -->
+    <meta name="description" content="深月铁路更多方块Mod">
+    <!-- 设置页面关键词 -->
+    <meta name="keywords" content="ShenYue Metro">
+    <!-- 设置页面作者 -->
+    <meta name="author" content="Sgss">
+    <!-- 设置页面版权信息 -->
+    <meta name="copyright" content="ShenYue Metro">
+    <!-- 设置页面搜索引擎抓取方式 -->
+    <meta name="robots" content="All">
+    <!-- 加载 jQuery 库 -->
+    <script src="/static/scripts/jquery-3.6.4.min.js"></script>
+    <!-- 加载 jQuery Cookie 插件 -->
+    <script src="/static/npm/jquery-cookie@1.4.1/jquery.cookie.min.js"></script>
+    <!-- 加载语言切换脚本 -->
+    <script src="/static/scripts/language-switch.js"></script>
+    <!-- 加载下载脚本 -->
+    <script src="/static/scripts/Download.js"></script>
+    <!-- 设置页面标题 -->
+    <title id="downloadPageTitle"></title>
+</head>
+
+<body>
+    <!-- 导航栏占位符 -->
+    <nav id="nav-placeholder"></nav>
+    <table id="file-list">
+        <thead>
+            <tr>
+                <th id="fileName"></th>
+                <th id="fileSize"></th>
+                <th id="fileChangeTime"></th>
+                <th id="fileDownload"></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <!-- 获取 URL 中的参数并进行语言切换 -->
+    <script>
+        var params = new URLSearchParams(window.location.search);
+        var langCode = params.get('lang');
+        switchLanguage(langCode, 'en');
+    </script>
+    <!-- 加载导航栏脚本 -->
+    <script src="/static/scripts/nav.js"></script>
+</body>
+
+</html>

@@ -6,5 +6,11 @@
     "FriendlyLinks": "友情链接",
     "ChooseLanguage": "选择语言",
     "heading": "你好！",
-    "content": "欢迎访问我们的网站！"
+    "content": "欢迎访问我们的网站！",
+    "downloadPageTitle": "下载Mods",
+    "fileName": "文件名",
+    "fileSize": "文件大小",
+    "fileChangeTime": "修改时间",
+    "fileDownload": "下载",
+    "DownloadLink": "下载"
 }
