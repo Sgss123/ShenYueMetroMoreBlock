@@ -1,7 +1,7 @@
 function switchLanguage(langCode, defaultLangCode) {
     // 如果未指定语言代码，则使用默认语言代码
     if (!langCode) {
-        langCode = defaultLangCode;
+        langCode = $.cookie('langCode') || defaultLangCode;
     }
     // 根据语言代码获取对应的JSON文件
     var langFile = '/static/lang/' + langCode + '.json';
@@ -13,6 +13,7 @@ function switchLanguage(langCode, defaultLangCode) {
             $('#heading').text(langData.heading);
             $('#content').text(langData.content);
             // ...
+            $.cookie('langCode', langCode);
         }
     });
 }
