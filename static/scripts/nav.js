@@ -4,7 +4,7 @@ var $nav = $('<nav>').html(`
         <ul>
             <li><img src="/static/images/favicon.png" style="width: 49px;height: 49px;"/></li>
             <li><a id="Home" href="/"></a></li>
-            <li><a id="Download" href="/download.html"></a></li>
+            <li><a id="Download" href="/download"></a></li>
             <li><a id="About" href="/about"></a></li>
             <li>
                 <div class="dropdown">
