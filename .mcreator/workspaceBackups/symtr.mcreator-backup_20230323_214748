@@ -21,6 +21,9 @@
       "locked_code": false,
       "registry_name": "open_browser",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/symtr/procedures/OpenBrowserProcedure.java"
+        ],
         "dependencies": []
       }
     }
